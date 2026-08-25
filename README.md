@@ -1,4 +1,4 @@
-# spring-security-job-app
+# java projects
 
 1. Job Application Portal
 Technologies: Java 21, Spring Boot, Spring MVC/Web, JSP, JSTL, Apache Tomcat, Maven, Lombok
