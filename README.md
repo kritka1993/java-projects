@@ -42,5 +42,4 @@ Technologies: Java 21, Spring Boot, Spring Security, Spring Data JPA, PostgreSQL
 •	Implemented the web layer using Spring MVC and configured development support using Spring Boot DevTools.
 •	Demonstrated practical understanding of authentication flow, protected resources, dependency injection, and database integration.
 
-
 Resume tip: For a one-page fresher resume, select 2–3 strongest projects rather than listing every practice project. Use the security-enabled Job Application Portal as the main project and mention the REST/JPA versions as separate implementations only if you can explain them confidently in an interview.
