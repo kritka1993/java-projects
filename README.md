@@ -42,8 +42,5 @@ Technologies: Java 21, Spring Boot, Spring Security, Spring Data JPA, PostgreSQL
 •	Implemented the web layer using Spring MVC and configured development support using Spring Boot DevTools.
 •	Demonstrated practical understanding of authentication flow, protected resources, dependency injection, and database integration.
 
-Recommended projects to highlight on a Java Backend Developer resume
-•	Job Application Portal with Spring Security – strongest project for demonstrating Spring Boot, Security, JPA, PostgreSQL, and MVC.
-•	Job Application Portal – REST API – useful for demonstrating REST/API and Spring Data REST concepts.
-•	Job Application Portal – JPA Version – useful for demonstrating JPA, ORM, PostgreSQL, and CRUD persistence.
+
 Resume tip: For a one-page fresher resume, select 2–3 strongest projects rather than listing every practice project. Use the security-enabled Job Application Portal as the main project and mention the REST/JPA versions as separate implementations only if you can explain them confidently in an interview.
