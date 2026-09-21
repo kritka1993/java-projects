@@ -51,9 +51,3 @@ The project exposes REST APIs for PDF uploading and question answering. The main
 
 Overall, this project demonstrates how **RAG, vector databases, embeddings, LLMs, and Spring Boot** can be combined to build an intelligent document question-answering system. It can be extended with multiple PDFs, document-specific search, authentication, chat history, source citations, and a web-based user interface.
 
-•	Developed a Spring Boot login application demonstrating secure user authentication using Spring Security.
-•	Integrated Spring Security with Spring Data JPA and PostgreSQL to support database-backed user information.
-•	Implemented the web layer using Spring MVC and configured development support using Spring Boot DevTools.
-•	Demonstrated practical understanding of authentication flow, protected resources, dependency injection, and database integration.
-•	Job Application Portal – REST API – useful for demonstrating REST/API and Spring Data REST concepts.
-•	Job Application Portal – JPA Version – useful for demonstrating JPA, ORM, PostgreSQL, and CRUD persistence.
