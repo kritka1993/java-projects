@@ -36,6 +36,21 @@ Technologies: Java 21, Spring Boot, Spring Security, Spring Data JPA, PostgreSQL
 
 6. Secure Login Form
 Technologies: Java 21, Spring Boot, Spring Security, Spring Data JPA, PostgreSQL, Spring MVC, Maven, Lombok
+
+7.The **RAG PDF Reader** is a Spring Boot-based application that allows users to upload PDF documents and ask questions about their content using natural language. The project uses **Retrieval-Augmented Generation (RAG)** to provide answers based on information stored inside the uploaded PDFs.
+
+The application is developed using **Java 17, Spring Boot, Spring AI, OpenAI, PostgreSQL, and pgvector**. It does not require Docker Compose; PostgreSQL and pgvector can be installed and configured directly on the local system.
+
+When a user uploads a PDF, the application extracts its text using Spring AI's PDF document reader. The extracted content is converted into vector embeddings using an OpenAI embedding model. These embeddings, along with the document content and metadata, are stored in a PostgreSQL database using the pgvector extension.
+
+When the user asks a question, the application converts the question into an embedding and performs a similarity search in pgvector. The most relevant sections of the PDF are retrieved. These sections are then added to the user's question as context and sent to an OpenAI language model through Spring AI.
+
+The language model generates a natural-language response using the retrieved PDF information. If the required information is not available in the document, the application can respond that the answer could not be found in the PDF.
+
+The project exposes REST APIs for PDF uploading and question answering. The main components include a PDF controller, RAG service, Spring AI configuration, PostgreSQL database, and pgvector vector store.
+
+Overall, this project demonstrates how **RAG, vector databases, embeddings, LLMs, and Spring Boot** can be combined to build an intelligent document question-answering system. It can be extended with multiple PDFs, document-specific search, authentication, chat history, source citations, and a web-based user interface.
+
 •	Developed a Spring Boot login application demonstrating secure user authentication using Spring Security.
 •	Integrated Spring Security with Spring Data JPA and PostgreSQL to support database-backed user information.
 •	Implemented the web layer using Spring MVC and configured development support using Spring Boot DevTools.
