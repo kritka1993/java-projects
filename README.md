@@ -38,12 +38,12 @@ Technologies: Java 21, Spring Boot, Spring Security, Spring Data JPA, PostgreSQL
 Technologies: Java 21, Spring Boot, Spring Security, Spring Data JPA, PostgreSQL, Spring MVC, Maven, Lombok
 
 7.  Java & Generative AI Developer | PdfReadUsingRag (Document Intelligence Platform) :-
+   Techologies  Java 21, Spring Boot, Spring AI, OpenAI API, PGvector (PostgreSQL), RAG, Vector Embeddings, REST APIs, Maven.
 • Built an Enterprise RAG Pipeline: Developed an end-to-end Retrieval-Augmented Generation system using Java 21 and Spring Boot 4.1 to turn static files into     interactive, searchable data.
 • Integrated LLMs via Spring AI: Connected OpenAI API to generate high-dimensional text embeddings, replacing basic keyword search with deep semantic AI queries.
 • Engineered Data Ingestion: Created a parsing engine using spring-ai-pdf-document-reader to extract, chunk, and tokenize complex multi-page PDF documents.
 • Optimized Vector Storage: Implemented PGvector (PostgreSQL) for vector database storage, configuring indexing to ensure low-latency context retrieval.
 • Developed RESTful APIs: Built web endpoints using Spring Web MVC to handle simultaneous document uploads and live AI chat interactions.
-Tech Stack: Java 21, Spring Boot, Spring AI, OpenAI API, PGvector (PostgreSQL), RAG, Vector Embeddings, REST APIs, Maven.
 
-Overall, this project demonstrates how **RAG, vector databases, embeddings, LLMs, and Spring Boot** can be combined to build an intelligent document question-answering system. It can be extended with multiple PDFs, document-specific search, authentication, chat history, source citations, and a web-based user interface.
+-answering system. It can be extended with multiple PDFs, document-specific search, authentication, chat history, source citations, and a web-based user interface.
 
