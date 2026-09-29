@@ -44,6 +44,3 @@ Technologies: Java 21, Spring Boot, Spring Security, Spring Data JPA, PostgreSQL
 • Engineered Data Ingestion: Created a parsing engine using spring-ai-pdf-document-reader to extract, chunk, and tokenize complex multi-page PDF documents.
 • Optimized Vector Storage: Implemented PGvector (PostgreSQL) for vector database storage, configuring indexing to ensure low-latency context retrieval.
 • Developed RESTful APIs: Built web endpoints using Spring Web MVC to handle simultaneous document uploads and live AI chat interactions.
-
--answering system. It can be extended with multiple PDFs, document-specific search, authentication, chat history, source citations, and a web-based user interface.
-
